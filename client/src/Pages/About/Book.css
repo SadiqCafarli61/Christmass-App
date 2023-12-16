@@ -1,0 +1,106 @@
+.book-section{
+    background-image: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url(./Christmas/christmas.jpg);
+   padding-top: 110px;
+    height: 100%;
+}
+.book-section .left-side form{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+.book-section .left-side form input{
+    background-color: red;
+    border: none;
+
+    width: 300px;
+    color: #fff;
+}
+.book-section .left-side form input::placeholder{
+    color: #dedede;
+}
+.book-section .left-side select{
+    width: 300px;
+    outline: none;
+    border: none;
+    background-color: red;
+    color: #fff;
+}
+.book-section .right-side .content h2{
+    max-width: 250px;
+}
+.book-section .right-side .content img{
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 30px;
+    position: absolute;
+   top: -18px;
+    left: -18px;
+}
+
+.event-section .event .right-side{
+    width: 500px;
+}
+.event-section .event .right-side img{
+    width: 100%;
+    cursor: pointer;
+    Border-image: fill 0 linear-gradient(#003, #ffffff)
+}
+
+@media(max-width:991px){
+    .book-section .main{
+        display: grid;
+        height: 100%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .book-section .right-side h2{
+        max-width: 400px !important;
+    }
+  
+    .event-section .event .left-side{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        padding-bottom: 50px;
+    }
+    .event-section .event .right-side{
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+@media(max-width:768px){
+    .book-section .main{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .book-section .left-side{
+        
+        display: flex;
+        height: 560px;
+        align-items: center;
+        margin: 0 auto;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .book-section .left-side input, select{
+        width: 250px !important;
+    }
+    .book-section .right-side h2{
+        text-align: center;
+        font-size: 27px;
+    }
+    .event h3{
+        font-size: 25px;
+    }
+    .event .content span{
+        font-size: 18px;
+    }
+}

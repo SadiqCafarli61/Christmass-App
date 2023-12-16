@@ -1,0 +1,90 @@
+.profile-section{
+  
+  padding-top: 110px;
+  height: 90vh;
+}
+
+.profile-section .pages .left-side .profile-pic{
+    width: 80px;
+   
+}
+
+.profile-section .pages .left-side .profile-pic img{
+    width: 100%;
+    cursor: pointer;
+    height: 80px;
+    border-radius: 40%;
+}
+.profile-section .pages .left-side  textarea{
+    color: #555
+}
+
+
+.profile-about button{
+    display: block;
+    margin: 0 auto;
+}
+  .profile-about input{
+    border: 1px solid #222;
+    outline: none;
+
+  box-shadow: none;
+  }
+
+  .profile-about  {
+    width: 500px;
+  }
+
+  .profile-about textarea{
+    width: 300px;
+    background-color: transparent;
+    border: 1px solid #222;
+  box-shadow: none !important;
+  outline: none;
+  }
+
+@media(max-width:991px){
+    .profile-section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .profile-section .pages{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin: 0 auto;
+    }
+    .profile-about {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+    .profile-about button{
+        width: 110px;
+        display: block;
+        margin: 0 auto;
+    }
+    .profile-about form{
+        text-align: center;
+    }
+}
+
+@media(max-width:768px){
+    .profile-section{
+        height: 100%;
+    }
+    .profile-about {
+   
+        width: 400px;
+    }
+}
+
+
+@media(max-width:360px){
+    .profile-about{
+        padding: 10px;
+        width: 330px;
+    }
+}

@@ -1,0 +1,94 @@
+.main-home{
+    height: 80vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: baseline;
+    background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(./Season.jpg);
+}
+
+.block{
+    position: absolute;
+    margin: 20px auto;
+    height: 100px;
+    z-index: 2;
+    width: 100px;
+    background-color: #666;
+    border-radius: 2px;   
+}
+.season-section .season-data .cart{
+    box-shadow: 2px 2px 5px 5px #333;
+}
+
+.season-section .season-data .cart .cart__top{
+    border-radius: 10px;
+    width: 350px;
+}
+.season-section .season-data .cart{
+    width: 350px;
+}
+.cart__top img{
+    width: 100%;
+}
+
+.explore-world{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(./explore.jpg);
+}
+.explore-world .searching-countries input::placeholder{
+    color: #fff;
+}
+.explore-world .searching-countries select{
+    width: 300px;
+    border: 1px solid #fff;
+    color: #fff;
+    outline: none;
+}
+.explore-world .searching-countries select::placeholder{
+    color: #fff;
+}
+.explore-world .searching-countries option{
+    color: #000;
+}
+
+.explore-world .carts-countries{
+    padding-top: 110px;
+}
+.explore-world .carts-countries .cart{
+   height: 420px;
+    width: 400px;
+    transition:  all 0.7s ease;
+   border: 1px solid #fff;
+   border-radius: 6px;
+}
+.explore-world .carts-countries .cart :hover{
+
+    cursor: pointer;
+}
+
+@media(max-width:1200px){
+    .season-section .season-data{
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+    }
+}
+
+@media(max-width:991px){
+    .season-section .season-data{
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+    }
+}
+
+@media(max-width:768px){
+    .main-home h2{
+        font-size: 26px;
+    }
+    .main-home p{
+        font-size: 20px;
+    }
+    .season-section .season-data{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "name": "Hat",
+        "price": "$10",
+
+        "url": "https://res.cloudinary.com/dgmkqlvme/image/upload/v1702486218/gift1.jpg_kuhuin.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Gift",
+        "price": "$5",
+        "url": "https://res.cloudinary.com/dgmkqlvme/image/upload/v1702486218/gift4_kckog4.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Gift",
+        "price": "$15",
+        "url": "https://res.cloudinary.com/dgmkqlvme/image/upload/v1702486219/gift2_kado1v.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Wrapping Paper",
+        "price": "$3",
+        "url": "https://res.cloudinary.com/dgmkqlvme/image/upload/v1702486220/gift3_qbaagx.jpg"
+    }
+]

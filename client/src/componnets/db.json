@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "url": "https://res.cloudinary.com/dgmkqlvme/image/upload/v1701372758/mountain1_osxxdd.webp",
+        "name": "The Alps"
+    },
+    {
+        "id": 2,
+        "url": "https://res.cloudinary.com/dgmkqlvme/image/upload/v1701372758/mountain2_hgcgq3.webp",
+        "name": "Scotland"
+    },
+    {
+        "id": 3,
+        "url": "https://res.cloudinary.com/dgmkqlvme/image/upload/v1701372758/mountain3_as2vt1.webp",
+        "name": "Lapland"
+    }
+]

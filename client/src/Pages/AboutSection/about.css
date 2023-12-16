@@ -1,0 +1,191 @@
+
+.about-section{
+    height: 90vh;
+  background-image: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url(./about.jpg);
+}
+.about-section .main .left-side h3{
+font-size: 52px;
+  font-family: cursive;
+}
+.about-section .left-side{
+    width: 600px;
+
+}
+
+.best-wishes-section .content h5{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+.trees-about{
+    height: 100vh;
+}
+.trees-about .right-side p{
+    max-width: 450px;
+}
+.trees-about .cart-tree .saveArrow{
+    position: absolute;
+    right: 10px;
+    bottom: 15px;
+}
+.gift{
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    cursor: pointer;
+  
+}
+.giftEl{
+    display: none;
+}
+.active{
+    display: flex;
+}
+
+@media(max-width:991px){
+    .trees-about .trees{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin: 0 auto;
+    }
+    .trees-about .trees .right-side p{
+        font-size: 16px;
+        text-align: center;
+    }
+   
+    .coupon-code-section .coupon-code .left-side .image{
+        width: 400px;
+    }
+    .coupon-code-section .coupon-code .left-side .image img{
+        width: 100%;
+    }
+    .select-gifts .gift-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0 auto;
+    }
+}
+
+
+
+
+
+@media(max-width:768px){
+    .about-section .main .left-side{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .about-section .left-side .main h3{
+        font-size: 25px;
+    }
+    .best-wishes-section .wishes{
+        display: grid;
+       
+        grid-template-columns: repeat(1,1fr);
+    }
+    .best-wishes-section .wishes .right-side{
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    .snowman-section .snowman{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+       
+    }
+    .snowman-section .snowman .left-side{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .snowman-section .snowman .right-side{
+        margin-top: 50px;
+    }
+    .christmas-section .searching{
+        padding-bottom: 40px;
+    }
+    .christmas-section .result-trees{
+      display: grid;
+     place-items: center;
+    
+      grid-template-columns: repeat(1,1fr);
+    }
+    .trees-about .cart-tree{
+     
+   width: 380px;
+        display: block;
+        margin: 0 auto;
+    }
+    .trees-about .cart-tree .tree__top{
+        width: 200px;
+    }
+    .trees-about .icons{
+        padding-left: 18px;
+    }
+    .trees-about  .icons .saveArrow{
+        position: absolute;
+        right: 50px;
+    }
+ 
+    .coupon-code{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .coupon-code-section .coupon-code .left-side .image {
+        width: 100%;
+    }
+    .select-gifts .gift-container .left-side{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+.select-gifts .gift-container{
+    gap: 2;
+    display: grid;
+}
+    
+    .select-gifts .gift-container .right-side {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+@media(max-width:400px){
+    .about-section .main .left-side h3{
+        font-size: 25px;
+    }
+    .about-section .main .left-side h5{
+        font-size: 20px;
+    }
+    .best-wishes-section .wishes p{
+        font-size: 20px;
+    }
+    .best-wishes-section .wishes .left-side img{
+        width: 240px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       margin-left: 60px;
+    }
+    .snowman-section .snowman .right-side img{
+        width: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+}
+
